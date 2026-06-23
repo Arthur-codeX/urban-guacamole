@@ -1,6 +1,8 @@
 /*
  comparison operators.
  Comparison operators evaluate to only true or false.
+ -> 
+ for &&, or ->they work with truthy and falsey
 */
 
 /*
