@@ -45,26 +45,43 @@ function areaOfTriangle(base, height) {
   //Type check ->string, height:boolean
   //Types script ->
   if (typeof base !== "number") {
-    console.error(`when using are of triangle ensure base is a number`);
-    return; //exit
+    console.error("please enter a number for base");
+    return; //
   }
+
   if (typeof height !== "number") {
-    console.error(`when using are of triangle ensure height is a number`);
-    return; //exit
+    console.error("please enter a number for base");
+    return; //
   }
+
   console.log(`base, height is ${base} its type ${typeof base}`);
   console.log(`height is ${height} its type ${typeof height}`);
   const area = 0.5 * base * height;
   console.log(
     `For triangle with base ${base} and height ${height} area is ${area}`,
   );
+  return area;
 }
 
 //areaOfTriangle(20,30)
 let base1 = "hello";
 let heigth1 = true;
 areaOfTriangle(base1, heigth1);
+//console.log(typeof areaOfTriangle);
+/*
+ //primitive:<simple types>
+ //objects:<complex types>
+ //output->
+*/
 
+//console.log("message")
+//Math.min()
+
+//20,30
+//40,50
+
+//list names -> emails -> mail
+//function(email,messsaage)=>{}
 /*
 senario 1:
   call the areaOfTriangele function dont pass any arguments.<>
