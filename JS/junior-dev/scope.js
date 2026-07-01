@@ -21,6 +21,11 @@ console.log name and line number.
  in the same scope.
 */
 
+/*
+ {}-> block
+ function {},if {},for {},while {}
+*/
+
 let name = "Samson";
 
 function sayMyName() {
@@ -29,9 +34,19 @@ function sayMyName() {
   console.log(`name ${name} line ${15}`);
   if (true) {
     let name = "Delilah";
+    let y = 34;
     console.log(`name ${name} line ${26}`);
+  }
+
+  console.log(y);
+
+  function myName() {
+    // let name = "John";
+    console.log(`name ${name} line ${42}`);
   }
 
   console.log(`name ${name} line ${32}`); //Maggy
 }
 sayMyName();
+myName();
+console.log(y);
