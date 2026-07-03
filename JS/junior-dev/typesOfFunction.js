@@ -46,3 +46,27 @@ let k = areCircle(); //NaN expression<evalulated to yield>
 let rA = function (l, w) {
   return l * w;
 };
+
+//type or rA=?funciton
+
+/*
+ A funciton<anonymous> is assigend variable>
+*/
+
+//simply function creation. some properties <classes>
+/*
+ 1.create an anonymouse function
+ 2.remove the function keyword 
+ 3.between () <>{} put an arrow. =>
+ 4.good practice to have the variable as a const
+*/
+let rA2 = (l, w) => {
+  return l * w;
+}; //function
+
+/*
+ ->Named Function
+ ->Anaonymous function<syntatical sugar><semi understand>
+ ->Arrow function <syntatical sugar>
+ ->Call Back functions<Rank higly:good js developer>->
+*/
