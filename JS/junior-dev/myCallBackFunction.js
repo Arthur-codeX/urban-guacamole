@@ -61,15 +61,7 @@ function shape(shapeFunction, shapeName, side1, side2, side3) {
 shape(areaCircle, "Circle", 20);
 
 //Make observations
-shape(
-  function (a, b, h) {
-    return 0.5 * (a + b) * h;
-  },
-  "Trapezium",
-  10,
-  20,
-  30,
-); //extend
+shape((a, b, h) => 0.5 * (a + b) * h, "Trapezium", 10, 20, 30); //extend
 //->
 //-> promises , callback hell<one situation>then,catch
 //-> block your

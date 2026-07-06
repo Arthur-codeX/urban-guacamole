@@ -46,6 +46,8 @@ let k = areCircle(); //NaN expression<evalulated to yield>
 let rA = function (l, w) {
   return l * w;
 };
+//rA
+// rA="hello"
 
 //type or rA=?funciton
 
@@ -60,10 +62,12 @@ let rA = function (l, w) {
  3.between () <>{} put an arrow. =>
  4.good practice to have the variable as a const
 */
-let rA2 = (l, w) => {
+const rA2 = (l, w) => {
   return l * w;
 }; //function
-
+rA2(3, 4);
+rA2 = "Hello world"; //named function
+// no longer a funciton its a string
 /*
  ->Named Function
  ->Anaonymous function<syntatical sugar><semi understand>
