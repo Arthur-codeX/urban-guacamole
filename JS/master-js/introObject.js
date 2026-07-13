@@ -11,6 +11,9 @@
   key:value
  } //blocke
 
+ //nested object
+ // house -> safe 
+//2 keys <1 house> safe
  key:<property>=><number or a string><unique>
  value=>any other dataype<boolean,string,null,object> be a function
  if value is a function <method>.
@@ -92,7 +95,7 @@ const car = {
          top_speed:${car.top_speed}
         `);
   },
-  fun_fact: `
+  "fun fact": `
    First car to cross the sahara desert.
    no reverse parking near banks.
    No air bags you die like real men.
