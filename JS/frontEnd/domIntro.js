@@ -3,13 +3,13 @@ DOM<Document Object Model>
   -Link Html to JS
   -DOM only works in js for browsers.
 Dom properties and Dom methods
--->Accessing elements 
-    1.getElementById
-    2.getElementByClass
-    3.querySelector<single element> 
-       -id:#
-       -class:.
-       -tag:eg p
+  -->Accessing elements 
+      1.getElementById
+      2.getElementByClass
+      3.querySelector<single element> 
+        -id:#
+        -class:.
+        -tag:eg p
     4.querySelectorAll<an array>
 -->Update The Dom
     1.inner html<>
