@@ -6,7 +6,8 @@
 #-> python time.
 import time
 from datetime import date,datetime
-
+#capture erros and log
+#use try catch <JS>, try except <python>
 def logger(func):
     def wrapper(*args,**kwargs):
         start_time=time.time()
