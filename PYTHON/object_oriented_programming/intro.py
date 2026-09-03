@@ -7,8 +7,10 @@ work easy. by using principles.
 1.Encapsulation
    -keeping data and methods<functions> inside a class
    while restricting direct access to internal data.
+   ()->__init__, method ,what is a property
 2.Abstraction
    -Hiding uncessary complexity or implrtation of details.
+   -> getters and setters . class methods . class properties . static methods properties
 3.Inheritance
     -one class to reuse or extend propertie  
      and methods of another class 
