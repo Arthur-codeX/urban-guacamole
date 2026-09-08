@@ -9,10 +9,10 @@ work easy. by using principles.
    while restricting direct access to internal data.
    ()->__init__, method ,what is a property
 2.Abstraction
-   -Hiding uncessary complexity or implrtation of details.
-   -> getters and setters . class methods . class properties . static methods properties
+   -> Hiding uncessary complexity or implrtation of details.
+   -> Getters and setters . class methods . class properties . static methods properties
 3.Inheritance
-    -one class to reuse or extend propertie  
+    -one class to reuse or extend properties  
      and methods of another class 
 4.Polymorphisim
    -appering in different forms. Method can
