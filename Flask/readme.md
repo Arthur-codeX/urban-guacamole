@@ -11,3 +11,24 @@ Starting point.
 
 1. Create your project folder
 2. Create your virtual environment
+
+
+Flask for a server side renderd application.
+  1.create your project folder.
+     flask server side
+  2.set up your flask application.
+  3. create template folder.<html templates>
+
+
+Client side rendering.
+  <js > client heavy.<e citizen>:<catching>
+  PWA<mobile, desktop and web app>
+
+Server side rendering.
+   advantage fast load times <initiallt>
+   disdvantage:<home to about<fetch again>>
+   Scalling.<>
+   SQL injection
+   Cross origin 
+
+NEXT JS<client and server >
