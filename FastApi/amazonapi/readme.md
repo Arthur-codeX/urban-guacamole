@@ -55,3 +55,9 @@ url = env("DATABASE_URL")
 
 -- for data validation(optional) use pydantic
    pipenv install pydantic 'pydantic[email]'
+
+
+--Other routes.
+  Crud for product.
+    Create Read Update Delete
+  
